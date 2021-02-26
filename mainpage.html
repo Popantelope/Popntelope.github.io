@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主页</title>
+    <link rel="stylesheet" href="mainpage.css">
+    <script type="text/javascript" src="./mainpage.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="image">
+            <img src="../image/头像.jpg" alt="头像" height="120px" width="110px">
+        </div>
+        <div class="header_content">
+            <h3>我的主页</h3>
+        </div>
+    </div>
+    <br>
+    <br>
+    <button onclick="showarea('inline')">编辑内容</button>
+    <div id="content"></div>
+    <br>
+    <div>
+        <textarea name="text" id="area" cols="60" rows="10"></textarea><br>
+        <button id="send" onclick="finish()">发表</button>
+    </div>   
+</body>
+</html>
